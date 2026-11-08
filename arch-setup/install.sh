@@ -18,7 +18,7 @@ sudo systemctl enable fstrim.timer
 sudo systemctl enable paccache.timer
 sudo systemctl enable bluetooth
 sudo systemctl enable libvirtd.service
-
+sudo virsh net-autostart default
 # Fonts 
 
 cd ..
