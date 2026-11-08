@@ -59,12 +59,4 @@ sudo ufw allow 1714:1764/tcp
 sudo ufw reload
 
 # SDDM
-sudo cp hidpi.conf /etc/sddm.conf.d/ 
-
-# Plasma configuration
-
-source KDE/virtual/bin/activate
-
-konsave -i KDE/moe_kde.knsv
-
-konsave -a moe_kde
+sudo cp hidpi.conf /etc/sddm.conf.d/
